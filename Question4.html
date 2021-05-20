@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>   
+   <head>
+      <title>Form Validation</title> 
+<script>  
+function validateform(){  
+var name=document.myform.name.value;    
+  
+if (name!=null || name==""){  
+  alert("Name can't be blank");  
+}
+} 
+validateform(); 
+</script> 
+</head>
+<form>
+   <input type=”text” name=”firstname” />
+   <input type=”check” name=”checkme” />
+   <input type=”submit” value=”submit”/>
+</form>
+</html>
